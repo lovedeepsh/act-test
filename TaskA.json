@@ -1,0 +1,17 @@
+{
+"containerDefinitions": [
+   {
+    "name": "Task-A",
+    "image": "696145438952.dkr.ecr.ap-southeast-2.amazonaws.com/spring3hibernateapp:latest",
+    "portMappings": [
+    {
+       "containerPort": 8080,
+       "hostPort": 8080
+    }
+    ],
+    "memory": 512,
+    "cpu": 256
+  }
+],
+"family": "Task-A"
+}
